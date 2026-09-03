@@ -1,0 +1,1173 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/i18y2p",
+    "id": "i18y2p",
+    "slide": 3,
+    "layoutId": "f8f9832a-7dba-4a37-a8b9-75e8128e982b",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "80988344-9f79-48ec-b320-e2efea7e5e2a",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F4EFE6",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "f8f9832a-7dba-4a37-a8b9-75e8128e982b",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "80988344-9f79-48ec-b320-e2efea7e5e2a",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "80988344-9f79-48ec-b320-e2efea7e5e2a",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fm1sfy58",
+      "id": "1",
+      "name": "eyebrow-Your turn",
+      "bbox": [
+        72,
+        52,
+        500,
+        24
+      ],
+      "geometry": "rect",
+      "text": "YOUR TURN",
+      "textPreview": "YOUR TURN",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#B55B3E",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "YOUR TURN"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "YOUR TURN",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#B55B3E",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "YOUR TURN",
+              "fontSize": 12,
+              "color": "#B55B3E",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gna9836t",
+      "id": "2",
+      "name": "title-How Do You Play?",
+      "bbox": [
+        72,
+        88,
+        760,
+        62
+      ],
+      "geometry": "rect",
+      "text": "How Do You Play?",
+      "textPreview": "How Do You Play?",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "fontSize": 38,
+        "typeface": "+mn-lt",
+        "color": "#242321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "How Do You Play?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "How Do You Play?",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "color": "#242321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "How Do You Play?",
+              "fontSize": 38,
+              "color": "#242321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ho3ah8ne",
+      "id": "3",
+      "name": "subtitle-How Do You Play?",
+      "bbox": [
+        72,
+        148,
+        760,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Every turn connects a small choice to a long-term plan.",
+      "textPreview": "Every turn connects a small choice to a long-term plan.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#6B665E",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Every turn connects a small choice to a long-term plan."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Every turn connects a small choice to a long-term plan.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#6B665E"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Every turn connects a small choice to a long-term plan.",
+              "fontSize": 18,
+              "color": "#6B665E"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6hsr2tor",
+      "id": "4",
+      "name": "play-line",
+      "bbox": [
+        116,
+        252,
+        1000,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#E8DFD1",
+      "lineWidth": 6
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7i18by5c",
+      "id": "5",
+      "name": "step-circle-0",
+      "bbox": [
+        86,
+        220,
+        74,
+        74
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#B55B3E",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sja9436x",
+      "id": "6",
+      "name": "step-num-0",
+      "bbox": [
+        86,
+        244,
+        74,
+        30
+      ],
+      "geometry": "rect",
+      "text": "01",
+      "textPreview": "01",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01",
+              "fontSize": 17,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tkjqd8ni",
+      "id": "7",
+      "name": "step-title-0",
+      "bbox": [
+        86,
+        330,
+        300,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Build & expand",
+      "textPreview": "Build & expand",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#242321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Build & expand"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Build & expand",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#242321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Build & expand",
+              "fontSize": 22,
+              "color": "#242321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qdcrex4v",
+      "id": "8",
+      "name": "step-body-0",
+      "bbox": [
+        86,
+        376,
+        300,
+        70
+      ],
+      "geometry": "rect",
+      "text": "Grow cities. Balance food, gold, and production.",
+      "textPreview": "Grow cities. Balance food, gold, and production.",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#6B665E",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Grow cities. Balance food, gold, and"
+          },
+          {
+            "index": 2,
+            "text": "production."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Grow cities. Balance food, gold, and production.",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#6B665E"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Grow cities. Balance food, gold, and production.",
+              "fontSize": 17,
+              "color": "#6B665E"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/relsni5g",
+      "id": "9",
+      "name": "step-circle-1",
+      "bbox": [
+        464,
+        220,
+        74,
+        74
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#D6A554",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bu98fy5s",
+      "id": "10",
+      "name": "step-num-1",
+      "bbox": [
+        464,
+        244,
+        74,
+        30
+      ],
+      "geometry": "rect",
+      "text": "02",
+      "textPreview": "02",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02",
+              "fontSize": 17,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/at0rmt47",
+      "id": "11",
+      "name": "step-title-1",
+      "bbox": [
+        464,
+        330,
+        300,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Research & discover",
+      "textPreview": "Research & discover",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#242321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Research & discover"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Research & discover",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#242321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Research & discover",
+              "fontSize": 22,
+              "color": "#242321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xwbqho3y",
+      "id": "12",
+      "name": "step-body-1",
+      "bbox": [
+        464,
+        376,
+        300,
+        70
+      ],
+      "geometry": "rect",
+      "text": "Use Science and Civics trees to unlock tools and laws.",
+      "textPreview": "Use Science and Civics trees to unlock tools and laws.",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#6B665E",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Use Science and Civics trees to unlock"
+          },
+          {
+            "index": 2,
+            "text": "tools and laws."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Use Science and Civics trees to unlock tools and laws.",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#6B665E"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Use Science and Civics trees to unlock tools and laws.",
+              "fontSize": 17,
+              "color": "#6B665E"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cv29ojmd",
+      "id": "13",
+      "name": "step-circle-2",
+      "bbox": [
+        842,
+        220,
+        74,
+        74
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#5D786A",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zyt8jyl4",
+      "id": "14",
+      "name": "step-num-2",
+      "bbox": [
+        842,
+        244,
+        74,
+        30
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 17,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yxkrqt4j",
+      "id": "15",
+      "name": "step-title-2",
+      "bbox": [
+        842,
+        330,
+        300,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Interact",
+      "textPreview": "Interact",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#242321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Interact"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Interact",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#242321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Interact",
+              "fontSize": 22,
+              "color": "#242321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l0bql83u",
+      "id": "16",
+      "name": "step-body-2",
+      "bbox": [
+        842,
+        376,
+        300,
+        70
+      ],
+      "geometry": "rect",
+      "text": "Trade with neighbors, make friends, or fight when needed.",
+      "textPreview": "Trade with neighbors, make friends, or fight when needed.",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#6B665E",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Trade with neighbors, make friends, or"
+          },
+          {
+            "index": 2,
+            "text": "fight when needed."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Trade with neighbors, make friends, or fight when needed.",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#6B665E"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Trade with neighbors, make friends, or fight when needed.",
+              "fontSize": 17,
+              "color": "#6B665E"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kz29s3m9",
+      "id": "17",
+      "name": "city-strip",
+      "bbox": [
+        86,
+        520,
+        1040,
+        82
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E8DFD1",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/72t8nil0",
+      "id": "18",
+      "name": "city-quote",
+      "bbox": [
+        114,
+        544,
+        760,
+        32
+      ],
+      "geometry": "rect",
+      "text": "A city is a promise: place it well, then let it grow.",
+      "textPreview": "A city is a promise: place it well, then let it grow.",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#242321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A city is a promise: place it well, then let it grow."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A city is a promise: place it well, then let it grow.",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#242321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A city is a promise: place it well, then let it grow.",
+              "fontSize": 21,
+              "color": "#242321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m1krud4f",
+      "id": "19",
+      "name": "city-sequence",
+      "bbox": [
+        850,
+        546,
+        240,
+        36
+      ],
+      "geometry": "rect",
+      "text": "Resources  →  Districts  →  New possibilities",
+      "textPreview": "Resources  →  Districts  →  New possibilities",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#B55B3E",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Resources  →  Districts  →  New"
+          },
+          {
+            "index": 2,
+            "text": "possibilities"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Resources  →  Districts  →  New possibilities",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#B55B3E",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Resources  →  Districts  →  New possibilities",
+              "fontSize": 14,
+              "color": "#B55B3E",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/i98321sz",
+      "id": "20",
+      "name": "footer-rule-3",
+      "bbox": [
+        72,
+        666,
+        1136,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#E8DFD1",
+      "lineWidth": 2
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3uhkb69k",
+      "id": "21",
+      "name": "footer-label-3",
+      "bbox": [
+        72,
+        676,
+        460,
+        22
+      ],
+      "geometry": "rect",
+      "text": "CIVILIZATION VI  /  GAMEPLAY",
+      "textPreview": "CIVILIZATION VI  /  GAMEPLAY",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#6B665E",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CIVILIZATION VI  /  GAMEPLAY"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CIVILIZATION VI  /  GAMEPLAY",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#6B665E",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CIVILIZATION VI  /  GAMEPLAY",
+              "fontSize": 11,
+              "color": "#6B665E",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4vql4ba5",
+      "id": "22",
+      "name": "footer-num-3",
+      "bbox": [
+        1160,
+        674,
+        48,
+        24
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#B55B3E",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#B55B3E",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 12,
+              "color": "#B55B3E",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,33 @@
+---
+import { ArrowLeft } from "@lucide/astro";
+import { getCollection } from "astro:content";
+import ArticleCard from "../../components/ArticleCard.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ProfileSidebar from "../../components/ProfileSidebar.astro";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("posts", ({ data }) => !data.draft);
+  const tags = [...new Set(posts.flatMap((post) => post.data.tags))];
+  return tags.map((tag) => ({ params: { tag }, props: { tag } }));
+}
+
+const { tag } = Astro.props;
+const posts = (await getCollection("posts", ({ data }) => !data.draft && data.tags.includes(tag))).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+---
+
+<BaseLayout title={"标签：" + tag} description={"浏览标签“" + tag + "”下的全部文章。"}>
+  <div class="shell page-frame">
+    <ProfileSidebar current="标签" />
+    <section class="content-panel">
+      <header class="panel-heading page-heading">
+        <div>
+          <a class="back-link" href="/tags/"><ArrowLeft size={15} /> 返回全部标签</a>
+          <p class="section-kicker">TAGGED NOTES</p>
+          <h1>#{tag}</h1>
+          <p>这个标签下有 {posts.length} 篇文章。</p>
+        </div>
+      </header>
+      <div class="article-grid tag-article-grid">{posts.map((post) => <ArticleCard post={post} />)}</div>
+    </section>
+  </div>
+</BaseLayout>

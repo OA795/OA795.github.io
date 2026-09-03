@@ -1,0 +1,31 @@
+---
+import { ArrowUpRight, Hash } from "@lucide/astro";
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ProfileSidebar from "../../components/ProfileSidebar.astro";
+
+const posts = await getCollection("posts", ({ data }) => !data.draft);
+const tagCounts = posts.flatMap((post) => post.data.tags).reduce<Record<string, number>>((counts, tag) => {
+  counts[tag] = (counts[tag] || 0) + 1;
+  return counts;
+}, {});
+const tags = Object.entries(tagCounts).sort((a, b) => b[1] - a[1]);
+---
+
+<BaseLayout title="标签" description="按标签浏览个人博客。">
+  <div class="shell page-frame">
+    <ProfileSidebar current="标签" />
+    <section class="content-panel">
+      <header class="panel-heading page-heading">
+        <div>
+          <p class="section-kicker">INDEX BY TOPIC</p>
+          <h1>标签</h1>
+          <p>从一个关键词出发，找到同一条思路留下的不同脚印。</p>
+        </div>
+      </header>
+      <div class="tag-index">
+        {tags.map(([tag, count]) => <a href={"/tags/" + encodeURIComponent(tag) + "/"}><Hash size={18} /><strong>{tag}</strong><small>{count} 篇</small><ArrowUpRight size={17} /></a>)}
+      </div>
+    </section>
+  </div>
+</BaseLayout>

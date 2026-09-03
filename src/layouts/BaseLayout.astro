@@ -1,0 +1,130 @@
+---
+import "../styles/global.css";
+import { siteConfig } from "../config/site";
+import ThemeToggle from "../components/ThemeToggle.astro";
+import StyleToggle from "../components/StyleToggle.astro";
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+}
+
+const {
+  title = siteConfig.title,
+  description = siteConfig.description,
+  image = siteConfig.heroImage
+} = Astro.props;
+const socialImage = image?.trim() || undefined;
+const isLocalImage = socialImage?.startsWith("/") ?? false;
+const wallpaperStyle = socialImage ? `--site-wallpaper: url("${socialImage}")` : undefined;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? siteConfig.siteUrl).toString();
+const isHome = Astro.url.pathname === "/";
+---
+
+<!doctype html>
+<html lang="zh-CN" data-theme="dark" data-style="cinema">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://github.com" />
+    <link rel="dns-prefetch" href="//images.unsplash.com" />
+    {socialImage && isLocalImage && <link rel="preload" as="image" href={socialImage} fetchpriority="high" />}
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    {socialImage && <meta property="og:image" content={socialImage} />}
+    <meta name="theme-color" content="#555dc1" />
+    <title>{title} · {siteConfig.title}</title>
+  </head>
+  <body class:list={["site-body", { "is-home": isHome }]} style={wallpaperStyle}>
+    <a class="skip-link" href="#main-content">跳到主要内容</a>
+    <header class="site-header" data-site-header>
+      <div class="shell header-inner">
+        <a class="brand" href="/" aria-label={siteConfig.title + "首页"}>
+          <span class="brand-mark" aria-hidden="true">✳</span>
+          <span>
+            <strong>{siteConfig.title}</strong>
+            <small>{siteConfig.shortTitle}</small>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="主导航">
+          {siteConfig.navigation.map((item) => (
+            <a href={item.href}>{item.label}</a>
+          ))}
+        </nav>
+        <div class="header-actions">
+          <ThemeToggle />
+          <StyleToggle />
+        </div>
+      </div>
+    </header>
+    <main id="main-content">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <p>保持好奇，慢慢记录。</p>
+        <p>© {new Date().getFullYear()} {siteConfig.author}</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<script>
+  const header = document.querySelector<HTMLElement>("[data-site-header]");
+  const hero = document.querySelector<HTMLElement>("[data-hero]");
+  const heroVideo = document.querySelector<HTMLVideoElement>("[data-hero-video]");
+  let scrollFrame = 0;
+
+  const loadHeroVideo = () => {
+    if (!heroVideo) return;
+    const source = heroVideo.querySelector<HTMLSourceElement>("source[data-src]");
+    if (!source || source.src) return;
+    const src = source.dataset.src;
+    if (!src) return;
+    source.src = src;
+    heroVideo.load();
+    heroVideo.play().catch(() => undefined);
+  };
+
+  if (heroVideo) {
+    const connection = (navigator as Navigator & {
+      connection?: { saveData?: boolean; effectiveType?: string };
+    }).connection;
+    const shouldSkipVideo = connection?.saveData || ["slow-2g", "2g"].includes(connection?.effectiveType || "");
+
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches || shouldSkipVideo) {
+      heroVideo.removeAttribute("autoplay");
+    } else if ((window as Window & { requestIdleCallback?: (callback: () => void, options?: { timeout: number }) => number }).requestIdleCallback) {
+      const requestIdleCallback = (window as Window & { requestIdleCallback: (callback: () => void, options?: { timeout: number }) => number }).requestIdleCallback;
+      requestIdleCallback(loadHeroVideo, { timeout: 1800 });
+    } else {
+      window.setTimeout(loadHeroVideo, 1200);
+    }
+  }
+
+  heroVideo?.addEventListener("contextmenu", (event) => event.preventDefault());
+
+  const syncScrollState = () => {
+    if (scrollFrame) return;
+    scrollFrame = window.requestAnimationFrame(() => {
+      const currentScroll = Math.max(0, window.scrollY);
+      const headerThreshold = Math.min(28, window.innerHeight * 0.06);
+      header?.classList.toggle("is-scrolled", currentScroll > headerThreshold);
+      if (hero) {
+        const opacity = Math.max(0, 1 - currentScroll / (window.innerHeight * 0.84));
+        hero.style.setProperty("--center-opacity", String(opacity));
+      }
+      scrollFrame = 0;
+    });
+  };
+
+  window.addEventListener("scroll", syncScrollState, { passive: true });
+  window.addEventListener("resize", syncScrollState, { passive: true });
+  syncScrollState();
+</script>

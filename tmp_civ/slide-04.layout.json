@@ -1,0 +1,1253 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/nuh0rn",
+    "id": "nuh0rn",
+    "slide": 4,
+    "layoutId": "f8f9832a-7dba-4a37-a8b9-75e8128e982b",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "80988344-9f79-48ec-b320-e2efea7e5e2a",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F4EFE6",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "f8f9832a-7dba-4a37-a8b9-75e8128e982b",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "80988344-9f79-48ec-b320-e2efea7e5e2a",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "80988344-9f79-48ec-b320-e2efea7e5e2a",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tc329ory",
+      "id": "1",
+      "name": "eyebrow-The finish line",
+      "bbox": [
+        72,
+        52,
+        500,
+        24
+      ],
+      "geometry": "rect",
+      "text": "THE FINISH LINE",
+      "textPreview": "THE FINISH LINE",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#B55B3E",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "THE FINISH LINE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "THE FINISH LINE",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#B55B3E",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "THE FINISH LINE",
+              "fontSize": 12,
+              "color": "#B55B3E",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/69c3e9sn",
+      "id": "2",
+      "name": "title-Ways to Win",
+      "bbox": [
+        72,
+        88,
+        760,
+        62
+      ],
+      "geometry": "rect",
+      "text": "Ways to Win",
+      "textPreview": "Ways to Win",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "fontSize": 38,
+        "typeface": "+mn-lt",
+        "color": "#242321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Ways to Win"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Ways to Win",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "color": "#242321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Ways to Win",
+              "fontSize": 38,
+              "color": "#242321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7alk7e9s",
+      "id": "3",
+      "name": "subtitle-Ways to Win",
+      "bbox": [
+        72,
+        148,
+        760,
+        34
+      ],
+      "geometry": "rect",
+      "text": "There is no single best path. Your strategy sets the goal.",
+      "textPreview": "There is no single best path. Your strategy sets the goal.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#6B665E",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "There is no single best path. Your strategy sets the goal."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "There is no single best path. Your strategy sets the goal.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#6B665E"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "There is no single best path. Your strategy sets the goal.",
+              "fontSize": 18,
+              "color": "#6B665E"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k7a1cjah",
+      "id": "4",
+      "name": "route-rule-0",
+      "bbox": [
+        72,
+        236,
+        56,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#B55B3E",
+      "lineWidth": 5
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l8325or2",
+      "id": "5",
+      "name": "route-label-0",
+      "bbox": [
+        72,
+        256,
+        190,
+        26
+      ],
+      "geometry": "rect",
+      "text": "SCIENCE",
+      "textPreview": "SCIENCE",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#B55B3E",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SCIENCE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SCIENCE",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#B55B3E",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SCIENCE",
+              "fontSize": 13,
+              "color": "#B55B3E",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ylsja9sb",
+      "id": "6",
+      "name": "route-title-0",
+      "bbox": [
+        72,
+        288,
+        430,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Reach the stars",
+      "textPreview": "Reach the stars",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#242321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Reach the stars"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Reach the stars",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#242321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Reach the stars",
+              "fontSize": 24,
+              "color": "#242321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j61k3e9w",
+      "id": "7",
+      "name": "route-body-0",
+      "bbox": [
+        72,
+        328,
+        450,
+        48
+      ],
+      "geometry": "rect",
+      "text": "Launch a mission and begin the journey to Mars.",
+      "textPreview": "Launch a mission and begin the journey to Mars.",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#6B665E",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Launch a mission and begin the journey to Mars."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Launch a mission and begin the journey to Mars.",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#6B665E"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Launch a mission and begin the journey to Mars.",
+              "fontSize": 17,
+              "color": "#6B665E"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/43elo3al",
+      "id": "8",
+      "name": "route-rule-1",
+      "bbox": [
+        642,
+        236,
+        56,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#D6A554",
+      "lineWidth": 5
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/54n2h8r6",
+      "id": "9",
+      "name": "route-label-1",
+      "bbox": [
+        642,
+        256,
+        190,
+        26
+      ],
+      "geometry": "rect",
+      "text": "CULTURE",
+      "textPreview": "CULTURE",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#D6A554",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CULTURE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CULTURE",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#D6A554",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CULTURE",
+              "fontSize": 13,
+              "color": "#D6A554",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5gri98ja",
+      "id": "10",
+      "name": "route-title-1",
+      "bbox": [
+        642,
+        288,
+        430,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Make people curious",
+      "textPreview": "Make people curious",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#242321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Make people curious"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Make people curious",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#242321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Make people curious",
+              "fontSize": 24,
+              "color": "#242321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4fi1032p",
+      "id": "11",
+      "name": "route-body-1",
+      "bbox": [
+        642,
+        328,
+        450,
+        48
+      ],
+      "geometry": "rect",
+      "text": "Build wonders, share art, and attract tourists.",
+      "textPreview": "Build wonders, share art, and attract tourists.",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#6B665E",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Build wonders, share art, and attract tourists."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Build wonders, share art, and attract tourists.",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#6B665E"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Build wonders, share art, and attract tourists.",
+              "fontSize": 17,
+              "color": "#6B665E"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/je907y14",
+      "id": "12",
+      "name": "route-rule-2",
+      "bbox": [
+        72,
+        412,
+        56,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#5D786A",
+      "lineWidth": 5
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/id0jytkj",
+      "id": "13",
+      "name": "route-label-2",
+      "bbox": [
+        72,
+        432,
+        190,
+        26
+      ],
+      "geometry": "rect",
+      "text": "DOMINATION",
+      "textPreview": "DOMINATION",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#5D786A",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "DOMINATION"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "DOMINATION",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#5D786A",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "DOMINATION",
+              "fontSize": 13,
+              "color": "#5D786A",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hsri58jy",
+      "id": "14",
+      "name": "route-title-2",
+      "bbox": [
+        72,
+        464,
+        430,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Control capitals",
+      "textPreview": "Control capitals",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#242321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Control capitals"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Control capitals",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#242321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Control capitals",
+              "fontSize": 24,
+              "color": "#242321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wrihw32d",
+      "id": "15",
+      "name": "route-body-2",
+      "bbox": [
+        72,
+        504,
+        450,
+        48
+      ],
+      "geometry": "rect",
+      "text": "Conquer every rival capital through military strength.",
+      "textPreview": "Conquer every rival capital through military strength.",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#6B665E",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Conquer every rival capital through military strength."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Conquer every rival capital through military strength.",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#6B665E"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Conquer every rival capital through military strength.",
+              "fontSize": 17,
+              "color": "#6B665E"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vqp03y1s",
+      "id": "16",
+      "name": "route-rule-3",
+      "bbox": [
+        642,
+        412,
+        56,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#7D6A8D",
+      "lineWidth": 5
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/apgzutkn",
+      "id": "17",
+      "name": "route-label-3",
+      "bbox": [
+        642,
+        432,
+        190,
+        26
+      ],
+      "geometry": "rect",
+      "text": "DIPLOMACY",
+      "textPreview": "DIPLOMACY",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#7D6A8D",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "DIPLOMACY"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "DIPLOMACY",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#7D6A8D",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "DIPLOMACY",
+              "fontSize": 13,
+              "color": "#7D6A8D",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1obihsji",
+      "id": "18",
+      "name": "route-title-3",
+      "bbox": [
+        642,
+        464,
+        430,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Build agreement",
+      "textPreview": "Build agreement",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "fontSize": 24,
+        "typeface": "+mn-lt",
+        "color": "#242321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Build agreement"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Build agreement",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "color": "#242321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Build agreement",
+              "fontSize": 24,
+              "color": "#242321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gn218nix",
+      "id": "19",
+      "name": "route-body-3",
+      "bbox": [
+        642,
+        504,
+        450,
+        48
+      ],
+      "geometry": "rect",
+      "text": "Use the World Congress to solve global problems.",
+      "textPreview": "Use the World Congress to solve global problems.",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#6B665E",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Use the World Congress to solve global problems."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Use the World Congress to solve global problems.",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#6B665E"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Use the World Congress to solve global problems.",
+              "fontSize": 17,
+              "color": "#6B665E"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0ral4rqt",
+      "id": "20",
+      "name": "victory-line",
+      "bbox": [
+        72,
+        600,
+        720,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Violence is one tool, not the whole game.",
+      "textPreview": "Violence is one tool, not the whole game.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#242321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Violence is one tool, not the whole game."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Violence is one tool, not the whole game.",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#242321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Violence is one tool, not the whole game.",
+              "fontSize": 20,
+              "color": "#242321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1sj2dwre",
+      "id": "21",
+      "name": "footer-rule-4",
+      "bbox": [
+        72,
+        666,
+        1136,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#E8DFD1",
+      "lineWidth": 2
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/eps32183",
+      "id": "22",
+      "name": "footer-label-4",
+      "bbox": [
+        72,
+        676,
+        460,
+        22
+      ],
+      "geometry": "rect",
+      "text": "CIVILIZATION VI  /  VICTORY",
+      "textPreview": "CIVILIZATION VI  /  VICTORY",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#6B665E",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CIVILIZATION VI  /  VICTORY"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CIVILIZATION VI  /  VICTORY",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#6B665E",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CIVILIZATION VI  /  VICTORY",
+              "fontSize": 11,
+              "color": "#6B665E",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zq1kb698",
+      "id": "23",
+      "name": "footer-num-4",
+      "bbox": [
+        1160,
+        674,
+        48,
+        24
+      ],
+      "geometry": "rect",
+      "text": "04",
+      "textPreview": "04",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#B55B3E",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "04"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "04",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#B55B3E",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "04",
+              "fontSize": 12,
+              "color": "#B55B3E",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

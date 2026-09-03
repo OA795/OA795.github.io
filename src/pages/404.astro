@@ -1,0 +1,17 @@
+---
+import { ArrowLeft } from "@lucide/astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ProfileSidebar from "../components/ProfileSidebar.astro";
+---
+
+<BaseLayout title="页面不存在">
+  <div class="shell page-frame">
+    <ProfileSidebar />
+    <section class="content-panel not-found">
+      <p class="section-kicker">404 / LOST NOTE</p>
+      <h1>这页还没有被写下。</h1>
+      <p>地址可能已经改变，也可能只是暂时走错了方向。</p>
+      <a class="button button-dark" href="/"><ArrowLeft size={16} /> 回到首页</a>
+    </section>
+  </div>
+</BaseLayout>

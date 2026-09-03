@@ -1,0 +1,44 @@
+---
+import { ArrowUpRight, CalendarDays } from "@lucide/astro";
+import { postSlug } from "../lib/post-path";
+
+interface Props {
+  post: {
+    id: string;
+    data: {
+      title: string;
+      description: string;
+      date: Date;
+      tags: string[];
+      category: string;
+      cover?: string;
+    };
+  };
+  featured?: boolean;
+}
+
+const { post, featured = false } = Astro.props;
+const slug = postSlug(post.id);
+const dateLabel = post.data.date.toLocaleDateString("zh-CN", { year: "numeric", month: "short", day: "numeric" });
+const searchable = [post.data.title, post.data.description, post.data.category, ...post.data.tags].join(" ").toLowerCase();
+---
+
+<article class:list={["article-card", { featured }]} data-searchable data-search={searchable}>
+  {post.data.cover && (
+    <a class="article-cover" href={"/posts/" + slug + "/"} aria-label={"阅读：" + post.data.title}>
+      <img src={post.data.cover} alt="" width="1920" height="1080" loading="lazy" decoding="async" />
+      <span class="cover-arrow"><ArrowUpRight size={17} /></span>
+    </a>
+  )}
+  <div class="article-card-body">
+    <div class="eyebrow-row">
+      <span class="category-label">{post.data.category}</span>
+      <span class="article-date"><CalendarDays size={14} /> {dateLabel}</span>
+    </div>
+    <h3><a href={"/posts/" + slug + "/"}>{post.data.title}</a></h3>
+    <p>{post.data.description}</p>
+    <div class="tag-list" aria-label="文章标签">
+      {post.data.tags.map((tag) => <a href={"/tags/" + encodeURIComponent(tag) + "/"}>#{tag}</a>)}
+    </div>
+  </div>
+</article>

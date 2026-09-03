@@ -1,0 +1,40 @@
+---
+import { Search, X } from "@lucide/astro";
+---
+
+<div class="search-box" data-search-box>
+  <Search size={18} stroke-width={1.8} aria-hidden="true" />
+  <label class="sr-only" for="article-search">搜索文章</label>
+  <input id="article-search" data-search-input type="search" placeholder="搜索标题、标签或摘要" autocomplete="off" />
+  <button class="search-clear" data-search-clear type="button" aria-label="清空搜索" title="清空搜索" hidden><X size={16} /></button>
+  <span class="search-count" data-search-count></span>
+</div>
+
+<script>
+  const searchBox = document.querySelector<HTMLElement>("[data-search-box]");
+  const searchInput = searchBox?.querySelector<HTMLInputElement>("[data-search-input]");
+  const searchClear = searchBox?.querySelector<HTMLButtonElement>("[data-search-clear]");
+  const searchCount = searchBox?.querySelector<HTMLElement>("[data-search-count]");
+  const cards = Array.from(document.querySelectorAll<HTMLElement>("[data-searchable]"));
+
+  const filterPosts = () => {
+    const query = searchInput?.value.trim().toLowerCase() || "";
+    let visible = 0;
+    cards.forEach((card) => {
+      const matches = !query || (card.dataset.search || "").includes(query);
+      card.hidden = !matches;
+      if (matches) visible += 1;
+    });
+    if (searchClear) searchClear.hidden = !query;
+    if (searchCount) searchCount.textContent = query ? visible + " 篇" : cards.length + " 篇";
+    document.querySelector<HTMLElement>("[data-empty-search]")?.toggleAttribute("hidden", visible !== 0);
+  };
+
+  searchInput?.addEventListener("input", filterPosts);
+  searchClear?.addEventListener("click", () => {
+    if (searchInput) searchInput.value = "";
+    searchInput?.focus();
+    filterPosts();
+  });
+  filterPosts();
+</script>

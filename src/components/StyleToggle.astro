@@ -1,0 +1,76 @@
+---
+import { Palette } from "@lucide/astro";
+---
+
+<button class="icon-button style-toggle" data-style-toggle type="button" aria-label="选择样式" title="选择样式">
+  <Palette size={17} stroke-width={1.8} aria-hidden="true" />
+</button>
+
+<div class="style-menu" data-style-menu role="menu" aria-label="选择样式" hidden>
+  <p class="style-menu-title">选择样式</p>
+  <button class="style-option" data-style-option="cinema" type="button" role="menuitemradio" aria-checked="false">
+    <span class="style-swatch style-swatch-cinema" aria-hidden="true"></span>
+    <span><strong>影院</strong><small>深色玻璃</small></span>
+  </button>
+  <button class="style-option" data-style-option="mist" type="button" role="menuitemradio" aria-checked="false">
+    <span class="style-swatch style-swatch-mist" aria-hidden="true"></span>
+    <span><strong>雾色</strong><small>浅色柔和</small></span>
+  </button>
+</div>
+
+<script>
+  const styleKey = "oa795-style";
+  const root = document.documentElement;
+  const savedStyle = window.localStorage.getItem(styleKey);
+
+  if (savedStyle === "cinema" || savedStyle === "mist") {
+    root.dataset.style = savedStyle;
+  }
+
+  const styleToggle = document.querySelector<HTMLButtonElement>("[data-style-toggle]");
+  const styleMenu = document.querySelector<HTMLElement>("[data-style-menu]");
+  const styleOptions = [...document.querySelectorAll<HTMLButtonElement>("[data-style-option]")];
+
+  const syncStyleMenu = () => {
+    styleOptions.forEach((option) => {
+      option.setAttribute("aria-checked", String(option.dataset.styleOption === root.dataset.style));
+    });
+  };
+
+  const setMenuOpen = (open: boolean) => {
+    if (!styleToggle || !styleMenu) return;
+    styleMenu.hidden = !open;
+    styleToggle.setAttribute("aria-expanded", String(open));
+  };
+
+  styleToggle?.setAttribute("aria-haspopup", "menu");
+  styleToggle?.setAttribute("aria-expanded", "false");
+  syncStyleMenu();
+
+  styleToggle?.addEventListener("click", () => {
+    setMenuOpen(Boolean(styleMenu?.hidden));
+  });
+
+  styleOptions.forEach((option) => {
+    option.addEventListener("click", () => {
+      const nextStyle = option.dataset.styleOption;
+      if (nextStyle !== "cinema" && nextStyle !== "mist") return;
+      root.dataset.style = nextStyle;
+      window.localStorage.setItem(styleKey, nextStyle);
+      syncStyleMenu();
+      setMenuOpen(false);
+    });
+  });
+
+  document.addEventListener("click", (event) => {
+    if (!styleMenu || !styleToggle) return;
+    const target = event.target;
+    if (target instanceof Node && !styleMenu.contains(target) && !styleToggle.contains(target)) {
+      setMenuOpen(false);
+    }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") setMenuOpen(false);
+  });
+</script>

@@ -1,0 +1,64 @@
+---
+import { MapPin, Music2, UserRound } from "@lucide/astro";
+import { siteConfig } from "../config/site";
+import MusicPlayer from "./MusicPlayer.astro";
+import SocialIcon from "./SocialIcon.astro";
+
+interface Props {
+  current?: string;
+}
+
+const { current = "" } = Astro.props;
+---
+
+<aside class="profile-sidebar">
+  <div class="profile-card">
+    <a class="profile-avatar" href={siteConfig.social.github} target="_blank" rel="noreferrer" aria-label="打开 OA795 的 GitHub 主页">
+      <img src="https://github.com/OA795.png?size=240" alt="OA795 的 GitHub 头像" width="74" height="74" loading="lazy" decoding="async" />
+    </a>
+    <p class="profile-kicker">PERSONAL SPACE</p>
+    <h2>{siteConfig.title}</h2>
+    <p class="profile-bio">记录技术、阅读、游戏与日常观察。慢一点写，也慢一点读。</p>
+    <div class="profile-meta">
+      <span><UserRound size={14} />睡教大祭司</span>
+      <span><MapPin size={14} />美国</span>
+    </div>
+    <div class="profile-links">
+      <a href={siteConfig.social.github} target="_blank" rel="noreferrer" aria-label="GitHub" title="GitHub">
+        <SocialIcon brand="github" class="github-glyph" />
+      </a>
+      <a href={siteConfig.social.bilibili} target="_blank" rel="noreferrer" aria-label="哔哩哔哩" title="哔哩哔哩"><SocialIcon brand="bilibili" class="bilibili-glyph" /></a>
+      <button class="music-toggle" data-music-toggle type="button" aria-label="显示音乐播放器" aria-expanded="false" aria-controls="music-player" title="显示音乐播放器">
+        <Music2 size={17} />
+      </button>
+    </div>
+  </div>
+  <MusicPlayer />
+  <nav class="profile-nav" aria-label="页面导航">
+    {siteConfig.navigation.map((item) => (
+      <a class:list={{ active: current === item.label }} href={item.href} aria-current={current === item.label ? "page" : undefined}>
+        <span>{item.label}</span>
+        {current === item.label && <span class="profile-nav-dot" aria-hidden="true"></span>}
+      </a>
+    ))}
+  </nav>
+</aside>
+
+<script>
+  const musicToggle = document.querySelector<HTMLButtonElement>("[data-music-toggle]");
+  const musicPlayer = document.querySelector<HTMLElement>("[data-music-player]");
+
+  if (musicToggle && musicPlayer) {
+    musicToggle.addEventListener("click", () => {
+      const isHidden = musicPlayer.dataset.hidden === "true";
+      if (isHidden) {
+        const iframe = musicPlayer.querySelector<HTMLIFrameElement>("iframe[data-src]");
+        if (iframe && !iframe.src) iframe.src = iframe.dataset.src || "";
+      }
+      musicPlayer.dataset.hidden = String(!isHidden);
+      musicToggle.setAttribute("aria-expanded", String(isHidden));
+      musicToggle.setAttribute("aria-label", isHidden ? "隐藏音乐播放器" : "显示音乐播放器");
+      musicToggle.setAttribute("title", isHidden ? "隐藏音乐播放器" : "显示音乐播放器");
+    });
+  }
+</script>

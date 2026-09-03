@@ -1,0 +1,33 @@
+---
+import { ArrowUpRight, GitBranch, Mail } from "@lucide/astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ProfileSidebar from "../components/ProfileSidebar.astro";
+import { siteConfig } from "../config/site";
+---
+
+<BaseLayout title="关于" description="关于个人博客和作者。">
+  <div class="shell page-frame">
+    <ProfileSidebar current="关于" />
+    <section class="content-panel about-content-panel">
+      <div class="about-layout">
+        <div class="about-heading">
+          <p class="section-kicker">A LITTLE ABOUT THIS PLACE</p>
+          <h1>你好，<br /><em>这里是我的记录。</em></h1>
+        </div>
+        <div class="about-content">
+          <p class="about-lede">我把这里当作一间开放的工作室：记录正在学习的技术，也记录那些暂时没有用处、但让生活变得更有质感的观察。</p>
+          <p>本站采用 Astro 构建，文章使用 Markdown 编写，公式由 KaTeX 渲染，部署在 GitHub Pages。它没有后台，也不追踪你的阅读轨迹，尽量保持轻、快和可迁移。</p>
+          <div class="about-links">
+            <a class="button button-dark" href={siteConfig.social.github} target="_blank" rel="noreferrer"><GitBranch size={16} /> GitHub <ArrowUpRight size={15} /></a>
+            <a class="button button-outline" href="mailto:hello@example.com"><Mail size={16} /> 联系我</a>
+          </div>
+        </div>
+      </div>
+      <div class="facts-grid">
+        <div><span>01</span><strong>静态优先</strong><p>没有数据库，也没有必须维护的服务器。</p></div>
+        <div><span>02</span><strong>内容优先</strong><p>每一篇文章都是一个清晰、可备份的 Markdown 文件。</p></div>
+        <div><span>03</span><strong>持续更新</strong><p>推送到 GitHub 后，页面会自动完成构建和发布。</p></div>
+      </div>
+    </section>
+  </div>
+</BaseLayout>

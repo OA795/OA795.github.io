@@ -1,0 +1,24 @@
+---
+import { Moon, Sun } from "@lucide/astro";
+---
+
+<button class="icon-button theme-toggle" data-theme-toggle type="button" aria-label="切换主题" title="切换主题">
+  <Sun class="theme-sun" size={17} stroke-width={1.8} aria-hidden="true" />
+  <Moon class="theme-moon" size={17} stroke-width={1.8} aria-hidden="true" />
+</button>
+
+<script>
+  const themeKey = "liminal-notes-theme";
+  const root = document.documentElement;
+  const savedTheme = window.localStorage.getItem(themeKey);
+
+  if (savedTheme === "dark" || savedTheme === "light") {
+    root.dataset.theme = savedTheme;
+  }
+
+  document.querySelector("[data-theme-toggle]")?.addEventListener("click", () => {
+    const nextTheme = root.dataset.theme === "dark" ? "light" : "dark";
+    root.dataset.theme = nextTheme;
+    window.localStorage.setItem(themeKey, nextTheme);
+  });
+</script>

@@ -1,0 +1,48 @@
+---
+import { ArrowLeft, ArrowRight, CalendarDays, Clock3 } from "@lucide/astro";
+import { getCollection, render } from "astro:content";
+import "katex/dist/katex.min.css";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ProfileSidebar from "../../components/ProfileSidebar.astro";
+import { postSlug } from "../../lib/post-path";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("posts", ({ data }) => !data.draft);
+  const sorted = posts.sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+
+  return sorted.map((post, index) => ({
+    params: { slug: postSlug(post.id) },
+    props: {
+      post,
+      previous: sorted[index + 1],
+      next: sorted[index - 1]
+    }
+  }));
+}
+
+const { post, previous, next } = Astro.props;
+const { Content } = await render(post);
+const dateLabel = post.data.date.toLocaleDateString("zh-CN", { year: "numeric", month: "long", day: "numeric" });
+---
+
+<BaseLayout title={post.data.title} description={post.data.description} image={post.data.cover || undefined}>
+  <article class="shell page-frame post-page">
+    <ProfileSidebar current="文章" />
+    <div class="content-panel post-content-panel">
+      <header class="post-header">
+        <a class="back-link" href="/archives/"><ArrowLeft size={15} /> 返回文章列表</a>
+        <div class="post-meta"><span>{post.data.category}</span><span><CalendarDays size={14} /> {dateLabel}</span><span><Clock3 size={14} />{post.data.time}</span></div>
+        <h1>{post.data.title}</h1>
+        <p class="post-lede">{post.data.description}</p>
+        <div class="tag-list post-tags">{post.data.tags.map((tag) => <a href={"/tags/" + encodeURIComponent(tag) + "/"}>#{tag}</a>)}</div>
+      </header>
+
+      <div class="prose"><Content /></div>
+
+      <nav class="post-navigation" aria-label="文章导航">
+        {previous ? <a href={"/posts/" + postSlug(previous.id) + "/"}><ArrowLeft size={16} /><span><small>上一篇</small>{previous.data.title}</span></a> : <span></span>}
+        {next ? <a class="next-post" href={"/posts/" + postSlug(next.id) + "/"}><span><small>下一篇</small>{next.data.title}</span><ArrowRight size={16} /></a> : <span></span>}
+      </nav>
+    </div>
+  </article>
+</BaseLayout>

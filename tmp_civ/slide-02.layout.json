@@ -1,0 +1,1382 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/y1f8m9",
+    "id": "y1f8m9",
+    "slide": 2,
+    "layoutId": "f8f9832a-7dba-4a37-a8b9-75e8128e982b",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "80988344-9f79-48ec-b320-e2efea7e5e2a",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#F4EFE6",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "f8f9832a-7dba-4a37-a8b9-75e8128e982b",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "80988344-9f79-48ec-b320-e2efea7e5e2a",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "80988344-9f79-48ec-b320-e2efea7e5e2a",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4zedozq9",
+      "id": "1",
+      "name": "eyebrow-The big idea",
+      "bbox": [
+        72,
+        52,
+        500,
+        24
+      ],
+      "geometry": "rect",
+      "text": "THE BIG IDEA",
+      "textPreview": "THE BIG IDEA",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#B55B3E",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "THE BIG IDEA"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "THE BIG IDEA",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#B55B3E",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "THE BIG IDEA",
+              "fontSize": 12,
+              "color": "#B55B3E",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jy5cvu9o",
+      "id": "2",
+      "name": "title-What is Civilization VI?",
+      "bbox": [
+        72,
+        88,
+        760,
+        62
+      ],
+      "geometry": "rect",
+      "text": "What is Civilization VI?",
+      "textPreview": "What is Civilization VI?",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "fontSize": 38,
+        "typeface": "+mn-lt",
+        "color": "#242321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "What is Civilization VI?"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "What is Civilization VI?",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "color": "#242321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "What is Civilization VI?",
+              "fontSize": 38,
+              "color": "#242321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ixcbmp83",
+      "id": "3",
+      "name": "subtitle-What is Civilization VI?",
+      "bbox": [
+        72,
+        148,
+        760,
+        34
+      ],
+      "geometry": "rect",
+      "text": "A history sandbox where every choice changes the map.",
+      "textPreview": "A history sandbox where every choice changes the map.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#6B665E",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "A history sandbox where every choice changes the map."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A history sandbox where every choice changes the map.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#6B665E"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A history sandbox where every choice changes the map.",
+              "fontSize": 18,
+              "color": "#6B665E"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hw3ut4ri",
+      "id": "4",
+      "name": "premise-callout",
+      "bbox": [
+        72,
+        218,
+        580,
+        72
+      ],
+      "geometry": "rect",
+      "text": "One turn at a time, you lead a real civilization from the Stone Age to the Modern Era.",
+      "textPreview": "One turn at a time, you lead a real civilization from the Stone Age to the Modern Era.",
+      "resolvedFontSize": 26,
+      "resolvedTextStyle": {
+        "fontSize": 26,
+        "typeface": "+mn-lt",
+        "color": "#242321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "One turn at a time, you lead a real civilization from"
+          },
+          {
+            "index": 2,
+            "text": "the Stone Age to the Modern Era."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "One turn at a time, you lead a real civilization from the Stone Age to the Modern Era.",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "color": "#242321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "One turn at a time, you lead a real civilization from the Stone Age to the Modern Era.",
+              "fontSize": 26,
+              "color": "#242321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wvutkzqx",
+      "id": "5",
+      "name": "bullet-num-1",
+      "bbox": [
+        72,
+        332,
+        42,
+        30
+      ],
+      "geometry": "rect",
+      "text": "01",
+      "textPreview": "01",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#B55B3E",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#B55B3E",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01",
+              "fontSize": 14,
+              "color": "#B55B3E",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vulcru9c",
+      "id": "6",
+      "name": "bullet-label-1",
+      "bbox": [
+        130,
+        330,
+        330,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Turn-based strategy",
+      "textPreview": "Turn-based strategy",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#242321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Turn-based strategy"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Turn-based strategy",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#242321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Turn-based strategy",
+              "fontSize": 22,
+              "color": "#242321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/utcbip8r",
+      "id": "7",
+      "name": "bullet-body-1",
+      "bbox": [
+        130,
+        364,
+        420,
+        58
+      ],
+      "geometry": "rect",
+      "text": "You plan, act, and then the world responds.",
+      "textPreview": "You plan, act, and then the world responds.",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#6B665E",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "You plan, act, and then the world responds."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "You plan, act, and then the world responds.",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#6B665E"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "You plan, act, and then the world responds.",
+              "fontSize": 17,
+              "color": "#6B665E"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1s7u5orm",
+      "id": "8",
+      "name": "bullet-rule-1",
+      "bbox": [
+        130,
+        434,
+        420,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#E8DFD1",
+      "lineWidth": 2
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/grydwjqh",
+      "id": "9",
+      "name": "bullet-num-2",
+      "bbox": [
+        72,
+        472,
+        42,
+        30
+      ],
+      "geometry": "rect",
+      "text": "02",
+      "textPreview": "02",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "+mn-lt",
+        "color": "#D6A554",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02",
+          "resolvedTextStyle": {
+            "fontSize": 14,
+            "color": "#D6A554",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02",
+              "fontSize": 14,
+              "color": "#D6A554",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/udc3mlcn",
+      "id": "10",
+      "name": "bullet-label-2",
+      "bbox": [
+        130,
+        470,
+        330,
+        32
+      ],
+      "geometry": "rect",
+      "text": "4X at a glance",
+      "textPreview": "4X at a glance",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#242321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "4X at a glance"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "4X at a glance",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#242321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "4X at a glance",
+              "fontSize": 22,
+              "color": "#242321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vel4fqt8",
+      "id": "11",
+      "name": "bullet-body-2",
+      "bbox": [
+        130,
+        504,
+        420,
+        58
+      ],
+      "geometry": "rect",
+      "text": "Explore, expand, use resources, and compete.",
+      "textPreview": "Explore, expand, use resources, and compete.",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#6B665E",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Explore, expand, use resources, and compete."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Explore, expand, use resources, and compete.",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#6B665E"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Explore, expand, use resources, and compete.",
+              "fontSize": 17,
+              "color": "#6B665E"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gfulovut",
+      "id": "12",
+      "name": "bullet-rule-2",
+      "bbox": [
+        130,
+        574,
+        420,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#E8DFD1",
+      "lineWidth": 2
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/h03mh0be",
+      "id": "13",
+      "name": "era-0",
+      "bbox": [
+        760,
+        190,
+        94,
+        76
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E8DFD1",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/69s3i1cr",
+      "id": "14",
+      "name": "era-text-0",
+      "bbox": [
+        768,
+        210,
+        78,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Stone",
+      "textPreview": "Stone",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#6B665E",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Stone"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Stone",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#6B665E",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Stone",
+              "fontSize": 13,
+              "color": "#6B665E",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7a14b6tc",
+      "id": "15",
+      "name": "era-1",
+      "bbox": [
+        864,
+        190,
+        94,
+        76
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#B55B3E",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8balkbuh",
+      "id": "16",
+      "name": "era-text-1",
+      "bbox": [
+        872,
+        210,
+        78,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Classical",
+      "textPreview": "Classical",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Classical"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Classical",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Classical",
+              "fontSize": 13,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tcjmdgb2",
+      "id": "17",
+      "name": "era-2",
+      "bbox": [
+        968,
+        190,
+        94,
+        76
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E8DFD1",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/q5w3u5sv",
+      "id": "18",
+      "name": "era-text-2",
+      "bbox": [
+        976,
+        210,
+        78,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Medieval",
+      "textPreview": "Medieval",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#6B665E",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Medieval"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Medieval",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#6B665E",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Medieval",
+              "fontSize": 13,
+              "color": "#6B665E",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r654natg",
+      "id": "19",
+      "name": "era-3",
+      "bbox": [
+        1072,
+        190,
+        94,
+        76
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#E8DFD1",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/nax0f29s",
+      "id": "20",
+      "name": "era-text-3",
+      "bbox": [
+        1080,
+        210,
+        78,
+        34
+      ],
+      "geometry": "rect",
+      "text": "Modern",
+      "textPreview": "Modern",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "#6B665E",
+        "bold": true,
+        "alignment": "center",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Modern"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Modern",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "#6B665E",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Modern",
+              "fontSize": 13,
+              "color": "#6B665E",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mpojmxs7",
+      "id": "21",
+      "name": "era-line",
+      "bbox": [
+        798,
+        284,
+        313,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#B55B3E",
+      "lineWidth": 2
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9cfihcry",
+      "id": "22",
+      "name": "leader-title",
+      "bbox": [
+        760,
+        334,
+        360,
+        28
+      ],
+      "geometry": "rect",
+      "text": "Choose a leader",
+      "textPreview": "Choose a leader",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#242321",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Choose a leader"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Choose a leader",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#242321",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Choose a leader",
+              "fontSize": 22,
+              "color": "#242321",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ob61o7ad",
+      "id": "23",
+      "name": "leader-list",
+      "bbox": [
+        760,
+        372,
+        420,
+        72
+      ],
+      "geometry": "rect",
+      "text": "Cleopatra  •  Abraham Lincoln  •  Qin Shi Huang",
+      "textPreview": "Cleopatra  •  Abraham Lincoln  •  Qin Shi Huang",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "#6B665E",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Cleopatra  •  Abraham Lincoln  •  Qin Shi Huang"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Cleopatra  •  Abraham Lincoln  •  Qin Shi Huang",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "#6B665E"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Cleopatra  •  Abraham Lincoln  •  Qin Shi Huang",
+              "fontSize": 18,
+              "color": "#6B665E"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/beh0j29o",
+      "id": "24",
+      "name": "leader-note",
+      "bbox": [
+        760,
+        478,
+        380,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Each leader brings a different bonus and a different story.",
+      "textPreview": "Each leader brings a different bonus and a different story.",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#5D786A",
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Each leader brings a different bonus and a different"
+          },
+          {
+            "index": 2,
+            "text": "story."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Each leader brings a different bonus and a different story.",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#5D786A"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Each leader brings a different bonus and a different story.",
+              "fontSize": 17,
+              "color": "#5D786A"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ad8jqhsj",
+      "id": "25",
+      "name": "footer-rule-2",
+      "bbox": [
+        72,
+        666,
+        1136,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#E8DFD1",
+      "lineWidth": 2
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xgzilcru",
+      "id": "26",
+      "name": "footer-label-2",
+      "bbox": [
+        72,
+        676,
+        460,
+        22
+      ],
+      "geometry": "rect",
+      "text": "CIVILIZATION VI  /  PREMISE",
+      "textPreview": "CIVILIZATION VI  /  PREMISE",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#6B665E",
+        "bold": true,
+        "alignment": "left",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "CIVILIZATION VI  /  PREMISE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "CIVILIZATION VI  /  PREMISE",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#6B665E",
+            "bold": true
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "CIVILIZATION VI  /  PREMISE",
+              "fontSize": 11,
+              "color": "#6B665E",
+              "bold": true
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wfq1s7a9",
+      "id": "27",
+      "name": "footer-num-2",
+      "bbox": [
+        1160,
+        674,
+        48,
+        24
+      ],
+      "geometry": "rect",
+      "text": "02",
+      "textPreview": "02",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#B55B3E",
+        "bold": true,
+        "alignment": "right",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#B55B3E",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02",
+              "fontSize": 12,
+              "color": "#B55B3E",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}
