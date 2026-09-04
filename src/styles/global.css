@@ -765,7 +765,17 @@ body::before { opacity: var(--wallpaper-opacity); filter: saturate(0.8); }
   user-select: none;
 }
 .hero-video::-webkit-media-controls,
-.hero-video::-webkit-media-controls-enclosure {
+.hero-video::-webkit-media-controls-enclosure,
+.hero-video::-webkit-media-controls-panel,
+.hero-video::-webkit-media-controls-overlay-play-button,
+.hero-video::-webkit-media-controls-play-button,
+.hero-video::-webkit-media-controls-timeline,
+.hero-video::-webkit-media-controls-current-time-display,
+.hero-video::-webkit-media-controls-time-remaining-display,
+.hero-video::-webkit-media-controls-mute-button,
+.hero-video::-webkit-media-controls-volume-slider,
+.hero-video::-webkit-media-controls-fullscreen-button,
+.hero-video::-webkit-media-controls-toggle-closed-captions-button {
   display: none !important;
 }
 .brand {
