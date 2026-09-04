@@ -14,9 +14,9 @@ export const siteConfig = {
   // Shared wallpaper for inner pages and as the hero poster fallback.
   heroImage: "/images/site-wallpaper.webp",
   heroEyebrow: "OA795 / PERSONAL SPACE",
-  heroTitle: "把正在经历的，留在这里。",
+  heroTitle: "凡是过往，皆为序章。",
   heroDescription:
-    "记录技术、阅读、游戏与日常观察。慢一点写，也慢一点读。",
+    "记录技术、阅读、游戏与日常观察。",
   navigation: [
     { label: "首页", href: "/" },
     { label: "文章", href: "/archives/" },
