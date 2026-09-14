@@ -1,6 +1,6 @@
 ---
 title: "线性代数"
-description: "个人线代学习笔记"
+description: "个人线代学习笔记，整理中"
 date: 2026-9-6
 tags:
   - 线性代数

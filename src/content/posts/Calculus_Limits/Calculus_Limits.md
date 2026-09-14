@@ -7,7 +7,7 @@ tags:
   - 笔记
 category: "笔记"
 time: "10min"
-cover: "/images/LA-cover.webp"
+cover: "/images/Cal-Lim-cover.webp"
 ---
 # 微积分
 ---
