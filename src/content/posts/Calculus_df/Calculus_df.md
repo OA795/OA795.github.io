@@ -1,7 +1,7 @@
 ---
 title: "微积分-导数的定义与基本求导法则"
 description: "个人微积分学习笔记"
-date: 2026-9-13
+date: 2026-10-3
 tags:
   - AP Calculus BC
   - 笔记
