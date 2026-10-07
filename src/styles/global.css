@@ -555,7 +555,7 @@ body::before { opacity: var(--wallpaper-opacity); filter: saturate(0.8); }
 .hero-scroll svg { color: #c4ccff; }
 .home-section { border-top: 1px solid var(--line); padding: 52px 0 76px; }
 .page-frame { display: grid; grid-template-columns: 330px minmax(0, 1fr); align-items: start; gap: 28px; }
-.profile-sidebar { position: sticky; top: 98px; color: var(--ink); }
+.profile-sidebar { position: sticky; top: 98px; align-self: start; color: var(--ink); }
 .profile-card {
   padding: 27px 23px 24px;
   border: 1px solid rgba(255, 255, 255, 0.54);
@@ -658,7 +658,7 @@ body::before { opacity: var(--wallpaper-opacity); filter: saturate(0.8); }
 .facts-grid > div { border-top-color: var(--panel-line); }
 .facts-grid span { color: var(--accent-deep); }
 .facts-grid p { color: var(--panel-muted); }
-.post-page { align-items: stretch; padding-block: 0; }
+.post-page { align-items: start; padding-block: 0; }
 .post-content-panel { padding: 48px 54px; }
 .post-header h1 { margin: 20px 0 13px; font-size: 49px; }
 .post-lede,

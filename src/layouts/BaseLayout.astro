@@ -27,6 +27,16 @@ const isHome = Astro.url.pathname === "/";
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
+    <script is:inline>
+      (() => {
+        const themeKey = "liminal-notes-theme";
+        const savedTheme = window.localStorage.getItem(themeKey);
+        const theme = savedTheme === "light" || savedTheme === "dark"
+          ? savedTheme
+          : window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preconnect" href="https://github.com" />
     <link rel="dns-prefetch" href="//images.unsplash.com" />
